@@ -1,0 +1,26 @@
+/* section */
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.feedback__input {
+  padding: 18px 14px;
+  border-radius: 4px;
+  border: 1px solid var(--light);
+  color: var(--light);
+  background: transparent;
+}
+
+.feedback__input::placeholder {
+  color: var(--light);
+}
+
+.feedback__input:focus {
+  outline: none;
+}
+
+.feedback__input option {
+  color: var(--dark);
+}
