@@ -1,0 +1,7 @@
+.tab {
+  padding-bottom: 0;
+}
+.tab__list {
+  display: flex;
+  gap: 30px;
+}

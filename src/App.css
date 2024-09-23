@@ -1,0 +1,19 @@
+.section {
+  padding: 50px 0;
+}
+
+.title {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+
+.services__tabs {
+  display: flex;
+  gap: 70px;
+}
+
+.services__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

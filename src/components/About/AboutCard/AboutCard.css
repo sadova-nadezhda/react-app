@@ -1,0 +1,46 @@
+/* About */
+.about__desc {
+  max-width: 650px;
+  margin-bottom: 80px;
+}
+
+.about__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  counter-reset: item;
+}
+
+.about__card {
+  position: relative;
+  flex: 0 0 360px;
+  display: flex;
+  flex-direction: column;
+  padding: 27px 24px;
+  padding-bottom: 0;
+  border-radius: 10px;
+}
+
+.about__card::before {
+  content: " ";
+  counter-increment: item;
+  content: "0" counter(item);
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.about__card::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 80%;
+  right: 0;
+  border: 1px solid var(--white, #FFFFFF);
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
