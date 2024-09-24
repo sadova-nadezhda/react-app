@@ -64,6 +64,10 @@
   background-color: var(--white, #FFFFFF);
 }
 
+.button-primary {
+  background-color: var(--light-green, #00B7C1);
+}
+
 .button:disabled {
   opacity: 0.5;
 }

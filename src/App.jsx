@@ -7,9 +7,10 @@ import ServicesSection from "./components/Services/ServicesSection";
 import "./App.css";
 import TabSection from "./components/TabSection/TabSection";
 import FeedbackSection from "./components/Feedback/FeedbackSection";
+import EffectSection from "./components/Effects/EffectSection";
 
 export default function App() {
-  const [tab, setTab] = useState('feedback')
+  const [tab, setTab] = useState('effect')
 
   return (
     <>
@@ -25,6 +26,8 @@ export default function App() {
         )}
 
         {tab === 'feedback' && <FeedbackSection />}
+
+        {tab === 'effect' && <EffectSection />}
 
       </main>
     </>

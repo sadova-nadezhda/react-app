@@ -39,6 +39,7 @@ export default function FeedbackSection() {
   // const [list, setList] = useState('var1')
 
   const handleNameChange = (e) => {
+    // console.log(e)
     // setName(e.target.value)
     // setHasError(e.target.value.trim().length === 0)
     setForm(prev => ({
